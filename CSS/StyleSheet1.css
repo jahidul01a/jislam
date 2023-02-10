@@ -1,0 +1,55 @@
+﻿body {
+    font: 30px Arial,sans-serif;
+    margin: 1px;
+}
+
+html, body {
+    height: 100%;
+   
+}
+ 
+* html #outer { /* ie6 and under only*/
+    height: 100%;
+}
+
+.header {
+    padding: 60px 10px;
+    background:  grey;
+    height: 100px; 
+    
+}
+
+ .header h1 {
+    font-size: 30px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+
+.section {
+    width: 100%;
+    height: 70%;
+    opacity: 3;
+}
+
+
+.footer {
+    background: #acb3b9;
+    text-align: center;
+    padding: 10px;
+    height: 20%;
+    margin-top: 200px;
+}
+
+a {
+    border-color: Black;
+    text-align:center;
+    margin:10px;
+    box-shadow: 10px 4px 2px 2px #acb3b9;
+}
+h2{
+    font-size:80px;
+}
