@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>HTML Div Layout</title>
+    <link rel="stylesheet" href="CSS/StyleSheet1.css">
+    <link rel="stylesheet" href="CSS/StyleSheet_Menu.css">
+ <style>
+div.static {
+  position: static;
+  border: 3px solid #73AD21;
+}
+</style>   
+</head>
+<body>     
+
+
+    <div class="container">
+        <div class="header">
+ 
+             <table dir="ltr">
+                 <tr>
+                    <td><img src="images/Logo2.png" alt="Company Picture" width="50" height="50"></td>
+                    <td><h1>Hot Beans</h1></td>
+                </tr>
+            </table>
+            <ul>
+                <li><a class="active" id="op_Home">Home</a></li>
+                <li><a id="op_Contact">Contact</a></li>
+                <li><a id="op_Teams">Our Teams</a></li>
+                <li><a id="op_joinUs">join Us</a></li>  
+                <li><a id="op_About">About Us</a></li>
+            </ul>
+        </div>
+        
+        
+<div class="backgroung-image">
+        <div id="home_section" class="section">
+            
+            <center>
+                <h2>National BTEC Level3 IT  Course</h2>
+                <img src="images/Book.png" alt="Company Picture" width="170" height="200">
+            
+            <br /><br /><br /><br />
+            
+            <div class="static">
+ <p>&emsp;In this course, we allows 3+ grade in GCSE Maths and English.</p>
+            <p>&emsp;In this course we have-</p>
+</div>
+            
+            <table border = "10">
+                  <tr>
+                    <th>UNITS</th>
+                    <th>Units Name</th>
+                  </tr>
+                <tr>
+                    <td>Unit 1 </td>
+                    <td>Information Technology Systems </td>
+                </tr>
+                <tr>
+                    <td>Unit 2 </td>
+                    <td>Creating Systems To Manage Information</td>
+                </tr>
+                <tr>
+                    <td>Unit 3 </td>
+                    <td>Using Social Media Business</td>
+                </tr>
+                <tr>
+                    <td>Unit 4 </td>
+                    <td>Programming</td>
+                </tr>
+                <tr>
+                    <td>Unit 5 </td>
+                    <td>Data Modelling</td>
+                </tr>
+                <tr>
+                    <td>Unit 6 </td>
+                    <td>Website Development</td>
+                </tr>
+                <tr>
+                    <td>Unit 7 </td>
+                    <td>Mobile Apps Development</td>
+                </tr>
+                <tr>
+                    <td>Unit 8 </td>
+                    <td>Computer Games Development</td>
+                </tr>
+            </table>
+                </center>
+        </div>
+
+
+        <div id="about_section" class="section" hidden>
+            <center>
+                <h2>About Us</h2>
+            </center>
+             
+            <p>&emsp;&nbsp;The course is around 2 years. It has many interesting units for the students like <b>Programming</b>.</p>
+            <p>&emsp;&nbsp;You also can do <b>web designing</b>.</p>
+            <p>&emsp;&nbsp;And <b>Creating System and Management</b>.</p>
+            <br>
+            <center>
+            <table border = "1">
+                <tr>
+                    <td><img src="images/W3c.png" alt="Company Picture" width="350" height="450"></td>
+                    <td><img src="images/tspoint.png" alt="Company Picture" width="750" height="500"></td>
+                </tr>
+                <tr>
+                    <td><p>&emsp;In this website you can learn about <b>HTML</b> for web designing&emsp;</p>&emsp;
+                        <p>&emsp;<a href="https://www.w3schools.com/">Visit W3Schools.com!</a></p> </td>
+                    <td><p>&emsp;In this website you can learn about <b>MS Access</b>for Creating System And Management&emsp;</p>&emsp;
+                        <p>&emsp;<a href="https://www.tutorialspoint.com/index.htm">Visit tutorialspoint</a></p> </td>
+                </tr>
+                </table>
+            </center>
+        </div>
+
+        <div id="Teams_section" class="section" hidden>
+            <center>
+                <h2>Our Teams</h2>
+                <table>
+                    <tr>
+                        <td><img src="images/a.jpg" alt="Company Picture" width="100" height="100"></td>
+                        <td><img src="images/a.jpg" alt="Company Picture" width="100" height="100"></td>
+                        <td><img src="images/a.jpg" alt="Company Picture" width="100" height="100"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Name: ...... </p>
+                        </td>
+                        <td>
+                            <p>Name: ...... </p>
+                        </td>
+                        <td>
+                            <p>Name: ...... </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Write Here ................</p>
+                            <p>Write Here ................</p>
+                            <p>Write Here ................</p>
+                        </td>
+                        <td>
+                            <p>Write Here ...</p>
+                            <p>Write Here ...</p>
+                            <p>Write Here ...</p>
+                        </td>
+                        <td>
+                            <p>Write Here ...</p>
+                            <p>Write Here ...</p>
+                            <p>Write Here ...</p>
+                        </td>
+                    </tr>
+                </table>
+            </center>
+        </div>
+
+        <div id="contact_section" class="section" hidden>
+            <center>
+                <h2>Contact us</h2>
+            </center>
+            <form action="/action_page.php" style="justify-content:center">
+                &emsp;&emsp;&emsp;&emsp;&emsp;<label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname" value=""><br><br>
+
+                &emsp;&emsp;&emsp;&emsp;&emsp;<label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" value=""><br><br>
+
+                &emsp;&emsp;&emsp;&emsp;&emsp;<label for="mes">Message:</label><br>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;<textarea id="mes" name="mes" rows="4" cols="50"></textarea><br><br>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="submit" value="Submit">
+            </form>
+        </div>
+
+        <div id="joinUs_section" class="section" hidden>
+            <center>
+                <h2>Join us</h2>
+            </center>
+            <form action="/action_page.php">
+                &emsp;&emsp;&emsp;&emsp;&emsp;<label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname" value=""><br><br>
+
+                &emsp;&emsp;&emsp;&emsp;&emsp;<label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" value=""><br><br>
+
+                &emsp;&emsp;&emsp;&emsp;&emsp;<label for="email">Email:</label>
+                <input type="text" id="email" name="email" value=""><br><br>
+
+                &emsp;&emsp;&emsp;&emsp;&emsp;<label for="notes">Notes:</label><br>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<textarea id="notes" name="notes" rows="4" cols="50"></textarea><br><br>
+
+                &emsp;&emsp;&emsp;&emsp;&emsp;<b>Upload Your CV: </b>
+                <input type="file"
+                       id="file1"
+                       name="upload">
+                <br><br>
+
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="submit" value="Submit">
+            </form>             
+        </div>
+    
+        <div class="footer">
+            <a href="https://en-gb.facebook.com/">
+               <img src="Images/fb.jpg" width="60" height="60"> 
+               <i class="fb"></i>
+            </a> 
+            
+            <a href="https://www.instagram.com/">
+                <img src="Images/Insta.jpg" width="60" height="60">
+                <i class="Insta"></i>
+            </a> 
+            
+            <a href="https://twitter.com/?lang=en">
+                <img src="Images/twr.png" width="60" height="60">
+                <i class="Twitter"></i>
+            </a>
+            
+            <a href="https://www.pinterest.co.uk/">
+                <img src="Images/pint.png" width="60" height="60">
+                <i class="Twitter"></i>
+            </a>
+            
+            
+            <br><br><br><br><br>
+            <p><em><b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&copy;&nbsp;JAHIDUL ISLAM</b></em></p>
+           
+        </div>
+
+</div>
+</div> 
+    <script type="text/javascript">
+        var _about_section = document.getElementById('about_section');
+        var _home_section = document.getElementById('home_section');
+        var _contact_section = document.getElementById('contact_section');
+        var _joinUs_section = document.getElementById('joinUs_section');
+        var _Teams_section = document.getElementById('Teams_section');
+
+
+        document.getElementById('op_joinUs').onclick = function () {
+            _about_section.hidden = true;
+            _home_section.hidden = true;
+            _contact_section.hidden = true;
+            _joinUs_section.hidden = false;
+            _Teams_section.hidden = true;
+        }
+
+        document.getElementById('op_Teams').onclick = function () {
+            _about_section.hidden = true;
+            _home_section.hidden = true;
+            _contact_section.hidden = true;
+            _joinUs_section.hidden = true;
+            _Teams_section.hidden = false;
+        }
+
+        document.getElementById('op_About').onclick = function () {
+            _about_section.hidden = false;
+            _home_section.hidden = true;
+            _contact_section.hidden = true;
+            _joinUs_section.hidden = true;
+            _Teams_section.hidden = true;
+        }
+
+        document.getElementById('op_Contact').onclick = function () {
+            _about_section.hidden = true;
+            _home_section.hidden = true;
+            _contact_section.hidden = false;
+            _joinUs_section.hidden = true;
+            _Teams_section.hidden = true;
+        }
+
+        document.getElementById('op_Home').onclick = function () {
+            _about_section.hidden = true;
+            _home_section.hidden = false;
+            _contact_section.hidden = true;
+            _joinUs_section.hidden = true;
+            _Teams_section.hidden = true;
+        }
+    </script>
+</body>
+<style>
+    *{
+    margin:0;
+    padding:0;
+    
+}
+.backgroung-image {
+    background-image:url(images/bg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:100vh;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+}
+</style>
+</html>
